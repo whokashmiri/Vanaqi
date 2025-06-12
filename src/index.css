@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    font-family: "Press Start 2P", monospace;
+    /*  */
+    /* background-color: rgb(216, 216, 210); */
+}
+
+h2{
+    font-family: "Inter", sans-serif; 
+}
+
+p{
+  font-family: "Inter", sans-serif; 
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .hide-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  
