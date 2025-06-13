@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section className="relative w-full min-h-screen bg-black overflow-hidden px-4 py-16 flex flex-col justify-center items-center text-white">
       {/* Navigation */}
-      <nav className="absolute top-8 left-0 right-0 flex justify-between max-w-6xl mx-auto px-4 text-sm font-semibold z-10">
+      <nav className="fixed top-8 left-0 right-0 flex justify-between max-w-6xl mx-auto px-4 text-sm font-semibold z-10">
         <div className="flex gap-8">
           <a href="#" className="hover:opacity-80">HOME</a>
           <a href="#" className="hover:opacity-80">ABOUT</a>
