@@ -2,3 +2,6 @@
 
 
 @import "tailwindcss";
+p{
+    font-family: "DM Sans";
+}

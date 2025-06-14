@@ -64,7 +64,7 @@ const Hero = () => {
         </div>
 
         {/* Center Image (Always visible) */}
-        <div className="relative overflow-hidden rounded-xl h-[600px]">
+        <div className="relative overflow-hidden rounded-xl h-[700px]">
           <img
             src="https://images.pexels.com/photos/8107979/pexels-photo-8107979.jpeg"
             alt="Sienna 2"
