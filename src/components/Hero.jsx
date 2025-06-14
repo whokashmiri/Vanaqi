@@ -1,4 +1,5 @@
 import React from 'react';
+import Name from './Name';
 
 const Hero = () => {
   return (
@@ -13,9 +14,10 @@ const Hero = () => {
         </div>
         <a href="#" className="hover:opacity-80">ENQUIRE</a>
       </nav>
+      <Name/>
 
       {/* Hero Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-6xl w-full z-0 mt-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-6xl w-full z-0 mt-56">
         {/* Left Image */}
         <div className="relative overflow-hidden rounded-xl">
           <img
@@ -44,10 +46,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Big Overlay Text */}
-      <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[20vw] leading-none font-extrabold tracking-tight text-white mix-blend-difference pointer-events-none z-10">
-        VANESSA
-      </h1>
+    
     </section>
   );
 };
