@@ -7,7 +7,7 @@ const GalleryIntro = () => {
           AOS.init({ duration: 1000 });
         }, []);
   return (
-    <section className="relative w-full h-screen bg-black text-white overflow-hidden px-6 sm:px-12">
+    <section className="relative w-full lg:h-screen sm:max-h-96 bg-black text-white overflow-hidden px-6 sm:px-12">
       {/* Content */}
       <div className="absolute bottom-20 left-6 sm:left-12 z-10">
         <p className="text-xs tracking-widest text-gray-400 mb-2">/ GALLERY</p>

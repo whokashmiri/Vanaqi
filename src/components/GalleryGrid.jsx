@@ -66,6 +66,7 @@ const GalleryGrid = () => {
       <div className="flex flex-wrap gap-10 justify-center">
         <GalleryCard
           orientation="horizontal"
+          customWidth='lg:w-[650px]'
           image="https://images.pexels.com/photos/29014056/pexels-photo-29014056/free-photo-of-yosemite-national-park-autumn-scene-with-waterfall.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           hoverImage="https://images.pexels.com/photos/5633257/pexels-photo-5633257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           title="LUMINOUS NIGHTS: A DISCO–INSPIRED PORTRAIT"
@@ -87,7 +88,7 @@ const GalleryGrid = () => {
       <div className="flex justify-center">
         <GalleryCard
           orientation="horizontal"
-           customWidth="w-[600px]"
+           customWidth="lg:w-[600px] "
           image="https://images.pexels.com/photos/1637210/pexels-photo-1637210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           hoverImage="https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           title="GOLDEN STILLNESS: A MOMENT BETWEEN WORLDS"
