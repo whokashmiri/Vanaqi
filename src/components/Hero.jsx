@@ -58,7 +58,7 @@ const Hero = () => {
         <div className="hidden md:block relative overflow-hidden rounded-xl h-[500px]">
           <img
             src="https://images.pexels.com/photos/18191481/pexels-photo-18191481.jpeg"
-            alt="Sienna 1"
+            alt="VANESSA 1"
             className="w-full h-full object-cover"
           />
         </div>
@@ -67,7 +67,7 @@ const Hero = () => {
         <div className="relative overflow-hidden rounded-xl h-[700px]">
           <img
             src="https://images.pexels.com/photos/8107979/pexels-photo-8107979.jpeg"
-            alt="Sienna 2"
+            alt="VANESSA 2"
             className="w-full h-full object-cover"
           />
         </div>
@@ -76,7 +76,7 @@ const Hero = () => {
         <div className="hidden md:block relative overflow-hidden rounded-xl h-[500px]">
           <img
             src="https://images.pexels.com/photos/8108095/pexels-photo-8108095.jpeg"
-            alt="Sienna 3"
+            alt="VANESSA 3"
             className="w-full h-full object-cover"
           />
         </div>

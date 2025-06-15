@@ -21,7 +21,7 @@ const Card = () => {
           </div>
           <div className="glass" />
           <div className="content">
-            <span className="title">VANESSA JAURAGI</span>
+            <span className="title">VANESSA JAUREGUI</span>
             <span className="text">Capturing timeless moments through a creative lens — turning your vision into stunning visuals.</span>
           </div>
           <div className="bottom">
