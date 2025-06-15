@@ -5,3 +5,7 @@
 p{
     font-family: "DM Sans";
 }
+
+body, html {
+  overflow-x: hidden;
+}

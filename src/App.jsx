@@ -6,6 +6,10 @@ import HeroIntro from './components/HeroIntro';
 import GalleryIntro from './components/GalleryIntro';
 import GalleryGrid from './components/GalleryGrid';
 import ServicesSection from './components/ServicesSection';
+import GalleryMarquee from './components/GalleryMarquee';
+import TestimonialCarousel from './components/TestimonialCarousel';
+import ArticleGrid from './components/ArticleGrid';
+import FooterSection from './components/FooterSection';
 
 
 function App() {
@@ -19,6 +23,10 @@ function App() {
       <GalleryIntro/> 
       <GalleryGrid/>
       <ServicesSection/>
+      <GalleryMarquee/>
+      <TestimonialCarousel/>
+      <ArticleGrid/>
+      <FooterSection/>
      
 
     </>
